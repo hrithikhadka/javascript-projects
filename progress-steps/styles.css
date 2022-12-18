@@ -43,7 +43,7 @@ body{
 .progress{
     width: 10%;
     height: 4px;
-    background-color: rgb(149, 149, 231);
+    background-color: #3498db;
     position: absolute;
     top: 50%;
     left: 0;
