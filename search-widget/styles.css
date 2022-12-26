@@ -26,7 +26,7 @@ body{
     height: 50px;
     width: 50px;
     font-size: 10px;
-    
+    transition: width .3s ease;
 }
 
 .search .button{
@@ -38,7 +38,9 @@ body{
     height: 50px;
     width: 50px;
     font-size: 20px;
-    cursor: pointer;
+   cursor: pointer;
+    transition: transform .3s ease;
+
 }
 
 .search.active .button{
@@ -46,5 +48,9 @@ body{
 }
 
 .search.active .input{
-    width: 150px;
+    width: 200px;
+}
+
+.search .input:focus, .search .button:focus{
+    outline:0;
 }
