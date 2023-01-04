@@ -11,3 +11,7 @@ toggleButton.addEventListener("click", function () {
   //   }
   sidebar.classList.toggle("show-sidebar");
 });
+
+closeButton.addEventListener("click", function () {
+  sidebar.classList.remove("show-sidebar");
+});
