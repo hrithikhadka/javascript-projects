@@ -40,6 +40,7 @@ body {
   font-family: inherit;
   color: #fff;
   font-size: 16px;
+  cursor: pointer;
 }
 
 .btn:focus {
